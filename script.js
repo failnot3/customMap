@@ -9,23 +9,25 @@ function initMap() {
         center: uluru,
         mapId: "b26acea981ff127b"
     });
-    // The marker, positioned at Uluru
     const marker = new google.maps.Marker({
         position: mark,
         map: map,
-        icon:{
-            url:"green-box.svg",
+        title: 'APM 2 @ NewAvenue',
+        icon: {
+            url: "green-box.svg",
             scaledSize: new google.maps.Size(40, 40)
         }
     });
     const markerOne = new google.maps.Marker({
         position: { lat: 42.66212822871365, lng: 23.31805707634206 },
         map: map,
-        icon:{
-            url:"green-box.svg",
+        title: 'APM 1 @PUZL',
+        icon: {
+            url: "green-box.svg",
             scaledSize: new google.maps.Size(40, 40)
         }
     });
+
 }
 
 window.initMap = initMap;
