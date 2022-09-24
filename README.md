@@ -1,2 +1,2 @@
 # customMap
-## This is a custom max with locations
+## This is a custom map with locations
